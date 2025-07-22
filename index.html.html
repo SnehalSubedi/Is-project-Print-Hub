@@ -1,0 +1,808 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>home</title>
+    <meta name="description" content="Explore a wide range of printers for every need at our online store. From high-quality photo printers to efficient all-in-one models, discover the latest technology and find the perfect printer to meet your printing requirements. Shop now for reliable and innovative printing solutions.">
+    <style>
+        * {
+            margin: 0px auto;
+        }
+
+        /*changing the height and bachground element of the navigation bar*/
+        .menu {
+            background-color: #dbdbdb;
+            height: 55px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .hello {
+            text-decoration: none;
+            color: white;
+        }
+
+        .hello:hover {
+            color: #1c1b1f;
+        }
+
+
+        /* css for imageslider*/
+        .slider {
+            width: 97%;
+            height: 515px;
+            margin-left: 1.5%;
+            padding-top: 5px;
+            box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 5px 5px 10px grey;
+            background-color: #fdfeff;
+
+        }
+
+        .slider img {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 2px;
+        }
+
+        /* css for main content below imageslider*/
+
+        .main {
+            color: #23b5e8;
+            font-size: 90px;
+        }
+
+        .main2 {
+            color: #23b5e8;
+            font-size: 30px;
+        }
+
+        .button {
+            width: 140px;
+            height: 40px;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            background-color: #9b9b9b;
+            border: 0;
+            border-radius: 20px;
+            margin-top: 9px;
+
+        }
+
+        .button:hover {
+            background-color: #747474;
+            color: white;
+        }
+
+        .round-img {
+            border-radius: 12px;
+
+        }
+
+        /* using css for product overview images */
+        .image {
+            margin-top: 20px;
+            margin-left: 35px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+
+
+
+        }
+
+        .image:hover {
+            transform: translateY(-25px);
+        }
+
+        .figcaption {
+            text-align: center;
+            color: #75767a;
+            font-size: 27px;
+
+        }
+
+        /* page layout with css */
+        .row {
+            display: flex;
+        }
+
+        .leftcolumn {
+            flex: 25%;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+
+        .rightcolumn {
+            flex: 75%;
+            padding-left: 30px;
+            padding-right: 20px;
+        }
+
+        .card1 {
+            background-color: white;
+            padding: 20px;
+            padding-top: 15px;
+            margin-top: 20px;
+            color: #283891;
+            font-size: 25px;
+            ;
+        }
+
+        .card2 {
+            background-color: white;
+            padding: 20px;
+            margin-top: 60px;
+        }
+
+        .vision {
+            font-size: 35px;
+            color: #283891;
+
+        }
+
+        .semivision {
+            font-size: 25px;
+            color: #283891;
+        }
+
+        /* css for adding reason for buying the Pixel-printer */
+        .why {
+            padding-left: 3px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            border-color: #587082;
+            font-size: 23px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 40px;
+            color: #283891;
+
+        }
+
+        /* css for professional printer advertisement */
+        .textimage {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            color: #87b0ab;
+            padding-left: 20%;
+            padding-top: 30px;
+        }
+
+        .textimage2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            text-align: center;
+            color: #87b0ab;
+            padding-left: 25%;
+            padding-top: 25px;
+        }
+
+        .textimage3 {
+            padding-left: 8.5%;
+            padding-top: 44%;
+        }
+
+        /* css for enquire div */
+        .enquire {
+            padding-left: 12%;
+        }
+
+        .title {
+            text-align: center;
+            padding-top: 15px;
+            text-decoration: underline;
+            font-size: 30px;
+
+        }
+
+        .area {
+            padding-left: 30px;
+            padding-top: 10px;
+            font-size: 19px;
+            color: #586f75;
+        }
+
+        /* css for social media logo*/
+        .logo {
+
+            transition: transform 0.4s;
+        }
+
+        .logo:hover {
+            transform: translateY(-9px);
+        }
+
+        .footer {
+            padding-left: 50px;
+            padding-top: 40px;
+            ;
+            color: white;
+            font-size: 29px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .extra {
+            color: white;
+            text-decoration: none;
+        }
+
+        .extra:hover {
+            color: black;
+        }
+
+        /* css for lower footer area*/
+        .lowerfooter {
+            padding-left: 30px;
+            font-size: 23px;
+            text-align: left;
+            color: #5e7479
+        }
+
+        .lastone {
+            padding-top: 50px;
+            padding-left: 50px;
+            font-size: 25px;
+            text-align: left;
+            color: #5e7479
+        }
+
+
+        .size {
+            padding-left: 300px;
+        }
+    </style>
+    <link rel="stylesheet" href="/style.css">
+    <script src ="myscript.js"></script>
+</head>
+
+<body style="background-color:#a1a1a1 ;">
+
+    <!--creating wrapper for web page by appling div-->
+    <div style="background-color:#dbdbdb ; width:100%; height:6020px;">
+
+        <!--creating header content and navigation by appling div-->
+        <header style="background-color: aqua; width:100%; height:150px;">
+
+            <!--Div for keeping logo-->
+            <div style="background-color: blue; width:12%; height:150px; margin:0px; float:left;">
+                <img src="images/IMG_20240104_014004_063.jpg" alt="image" width="100%" ; height="100%" />
+            </div>
+
+            <!--Creating space for navigation area -->
+            <div style="background-color: blueviolet; width:88%; height:150px; float:right;">
+
+                <!--for the upper portion of the navigartion bar-->
+                <div
+                    style="background-color:#dbdbdb ; width:100%; height:75px; float:top; text-align:center; font-size:40px;;">
+                    <p style="color:#586f75; font-family:'Times New Roman', Times, serif ; padding-top:15px; ">Unleash
+                        Your Imagination, Print Your Reality!</p>
+                </div>
+
+                <!--for the main navigation content-->
+                <div style="background-color:#dbdbdb; width:100%; height:75px; float:button;">
+                    <table style="width:90%;margin:auto;">
+                        <tr>
+                            <th class="menu">
+                                <a href="index.html.html" class="hello">Home</a>
+                            </th>
+                            <th class="menu">
+                                <a href="product page/homeprinters.html" class="hello">Product</a>
+                            </th>
+                            <th class="menu">
+                                <a href="blog.html.html" class="hello">Blog</a>
+                            </th>
+                            <th class="menu">
+                                <a href="reference.html" class="hello">Research</a>
+                            </th>
+                            <th class="menu">
+                                <a href="about us.html" class="hello">About Us</a>
+                            </th>
+                        </tr>
+                        <table>
+                </div>
+            </div>
+        </header>
+
+        <!--Allocating space for image slider-->
+        <div style="background-color: #fdfeff ;   width: 114%; height: 517px; margin-left: -14%;">
+
+
+            <div class="slider">
+                <div id="imgss">
+                    <!-- Wrap the img tag inside an anchor tag -->
+                    <a href="./product page/HH2.html"><img src="images/Screenshot (551).png" alt="Slide 1"></a>
+                </div>
+            </div>
+
+            <script>
+                var images = ['images/Screenshot (548).png', 'images/Screenshot (549).png', 'images/Screenshot (550).png'];
+
+                var x = 0;
+                var imgs = document.getElementById('imgss');
+                setInterval(slider, 3000);
+
+                function slider() {
+                    if (x < images.length) {
+                        x = x + 1;
+                    }
+                    else {
+                        x = 1;
+                    }
+                    // Wrap the img tag inside an anchor tag
+                    imgs.innerHTML = '<a href="#"><img src="' + images[x - 1] + '" alt="Slide ' + x + '"></a>';
+                }
+            </script>
+        </div>
+
+
+
+
+        <!--Allocating space for adding main content for the content below imageslider-->
+        <main
+            style="background-image:url('images/1458707-download-free-the-sims-4-wallpaper-cc-1920x1080-desktop.jpg'); width: 114%; height:650px;  margin-left:-14%;">
+
+            <!-- our content goes here -->
+            <div style="background-image:url('') ; width:50%; height:650px; float:left; text-align: left;">
+
+                <div style="margin-top:150px; margin-left:30px;">
+                    <h1 class="main"> Click To Explore </h1><br>
+                    <h4 class="main2">THE FUTURE OF TECH AND PRINT </h4><br>
+                    <p
+                        style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-size:25px; color:#7182a0;">
+                        Welcome to our Digital Horizon, where innovation meets<br>
+                        imagination, With a simple click, dive into the realm of cutting-<br>
+                        edge technology and high-performance printers that define the<br>
+                        future of digital creation. Immerse yourself in a curated collection<br>
+                        of the latest gadgets, breakthrough innovations, and state of the<br>
+                        art printers. Your journey begins with a click be the pioneer of<br>
+                        the tech and print revolution!</p>
+                    <br>
+                    <a href="./product page/topsales.html">
+                        <button class="button">Shop Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <div style="background-image:url(''); width:50%; height:650px; float:right; overflow: hidden; ">
+                <div id="img" style="margin-top:29px; margin-left:40px ;">
+                    <figure>
+                        <img src="images/Screenshot (538).png" alt="image" width="96%" height="560px"
+                            class="round-img" /><br><br>
+                        <figcaption align="center"><b>
+                                <h2><span style="color:#7d8ea3">3d-Printer</span> </h2>
+                            </b></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </main>
+
+
+        <!--creating div for product overview -->
+        <section>
+            <div style="font-family:Arial, Helvetica, sans-serif ; width:100%; height:78px; padding-top:28px ; ">
+                <h3 style="padding-left:400px ; font-size:40px ; color:#587082; ">Products Overview</h3>
+
+            </div>
+        </section>
+
+        <!--Allocating space for adding section content for the product overview/ feature below main area-->
+        <section style="background-color: white ; width: 114%; height:1215px;  margin-left:-14%; ">
+
+
+
+            <div
+                style="background-color: white ; width:48.5%; height:580px; float:left; margin-top:17px; ; margin-bottom:10px; margin-right:0.5%; margin-left:1%;  ">
+                <a href="./product page/officeprinters.html"> <img src="images/Screenshot (540).png" alt="image" width="90%" height="90% " class="image" /></a>
+                <h3 class="figcaption"> Office Printers </h3>
+            </div>
+
+            <div
+                style="background-color:white ; width:48.5%; height:580px; float:right; margin-top:17px; margin-bottom: 10px ; margin-left:0.5%; margin-right:1% ;">
+                <a href="./product page/homeprinters.html"><img src="images/Canon-Pixma-G2010-1.jpg" alt="image" width="90%" height="90%" class="image" /></a>
+                <h3 class="figcaption"> Home Printers </h3>
+            </div>
+
+            <div
+                style="background-color:white ; width:48.5%; height:580px; float:left; margin-top:10px; ; margin-bottom:10px; margin-right:0.5%; margin-left:1% ;">
+                <a href="./product page/3dprinters.html"><img src="images/af1849398fd7ad6dd962f53d0687ccce.jpeg" alt="image" width="90%" height="90%"
+                        class="image" /></a>
+                <h3 class="figcaption"> 3D Printers </h3>
+            </div>
+
+            <div
+                style="background-color:white ; width:48.5%; height:580px; float:right; margin-top:10px; margin-bottom: 10px ; margin-left:0.5%; margin-right:1% ;">
+                <a href="product page/portableandminiprinters.html"><img src="images/Screenshot (537).png" alt="image" width="90%" height="90%" class="image" /></a>
+                <h3 class="figcaption">Portable and Mini Printers </h3>
+            </div>
+
+
+
+        </section>
+
+        <!--creating a space for our printer vision and mission using page layout with css -->
+        <div style="background-color:white ;  width:114%; height:510px; margin-left:-14%; ">
+            <div class="row">
+                <div class="leftcolumn">
+                    <div class="card1">
+                        <h1>Pixel-Printer</h1>
+                    </div>
+
+                </div>
+                <div class="rightcolumn">
+                    <div class="card2">
+                        <p class="vision"><b>Our Vision</b></p>
+                        <p class="semivision">Revolutionizing Printing Solutions all over the Nepal</p><br><br>
+                        <p class="vision"><b>Our Mission</b></p>
+                        <p class="semivision"> Accessibility, efficiency, and innovation in printing technology in
+                            Nepal<br><br>
+                            With cutting-edge printing solutions as our primary focus, our company is evolving
+                            towards comprehensive print ecosystem development with initiatives for advanced
+                            printing technology, sustainable practices, user-friendly interfaces, and environmental
+                            consciousness.
+
+                            An engaged and reliable global network of 500,000 printing enthusiasts and
+                            professionals brings us closer to achieving our objective of 50,000 satisfied customers
+                            by 2030.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--creating div for why Pixel-Printer -->
+        <section>
+            <div style="font-family:Arial, Helvetica, sans-serif ; width:100%; height:300px;  ">
+                <hr style="width:113.5%; height:15px; margin-left:-182px; ">
+                <h3 style="padding-left:400px ; padding-top:28px ; font-size:40px ; color:#587082; ">Why
+                    "Pixel-Printer"?</h3><br><br>
+
+                <div style="margin-left:-110px ; margin-right:10px ; ">
+                    <h4
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:30px; ">
+                        Welcome to PixelPrinter-Where Precision meets<br>
+                        Printing Excellence!
+                    </h4><br><br>
+                    <p2
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size:21px; ">
+                        At Pixel-Printer, every dot matters and every detail is meticulously crafted
+                        to bringing you a printing experience that goes beyond expectations.
+                        our name "Pixel-Printer", encapsulates our commitment to delivering
+                        precision, clarity and innovation in the world of printing.
+                    </p2>
+
+                </div>
+
+            </div>
+        </section>
+        <hr style="width:113.5%; height:15px; margin-left:-182px; ">
+
+
+        <!--Allocating space for adding reason for buying the Pixel-printer-->
+        <main Style="background-color:#dbdbdb ; width:114%; height:720px; margin-left:-14%;  ">
+
+            <div style="background-color: white ; width:50%; height:180px; float:left;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Precision Printing:</b></li>
+                        <li>
+                            Each pixel represents a moment of precision in our printing process.
+                            we ensure that every print is a masterpiece, capturing the essence of
+                            your vision with unparalleled accuracy.
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:right;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>High-Resolution Quality:</b></li>
+                        <li>Like pixels in a high-defination images, our printers produce prints of
+                            the highest resolution, ensuring crystal-clear details and vibrant colors.<br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:left;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Nationalwide Service:</b></li>
+                        <li>we proudly serve customers all over Nepal, ensuring rellable access
+                            to our products and service across the country.<br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:right;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Warranty Coverage:</b></li>
+                        <li>Enjoy peace of mind with our warranty coverage, providing
+                            we'll work to make it right.<br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:left;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Expert Support Team:</b></li>
+                        <li>Our knowledgeable and friendly support team is ready to assist you
+                            with any inquiries, technical issues or guidance you may need.<br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:right;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Regular Updates:</b></li>
+                        <li>Stay informed about the latest product releases, updates and
+                            industry news through our regular communication channels. <br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:left;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Competitive Prices and Discounts:</b></li>
+                        <li>Highlight any competitive pricing strategies or ongoing discounts/sales that make
+                            Pixel-Printer an attractive option.<br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+            <div style="background-color:white ; width:50%; height:180px; float:right;">
+                <p>
+                <div class="why">
+                    <ul>
+                        <li><b>Customization Options:</b></li>
+                        <li>If applicable, talk about any customization features your platform offers, allowing
+                            customers to personalize their purchases. <br><br>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+
+        </main>
+        <hr style="width:113.5%; height:15px; margin-left:-182px; margin-bottom:4px; ; ">
+
+
+
+        <!--Allocating space for advertisment of professional printer-->
+        <section style="background-color:white ; width:114%; height:600px; margin-left:-14%; ">
+
+            <div
+                style="background-image:url('images/snapedit_1704533521281.png') ; width:95%; height:100%; margin-left: 0% ; ">
+
+                <div style="background-color:none ; width:50%; height:100%; float:right;">
+                    <p class="textimage"><b>
+                            Professtional Printer</b>
+                    </p>
+                    <p class="textimage2">
+                        It’s time to step up to the large format, professional quality printer
+                        you’ve been dreaming about.Canon’s professional photo printers
+                        possess the functionality and technology you need to achieve high-
+                        quality output so your prints can look as good as the images you
+                        capture.
+                    </p>
+                    <p class="textimage3">
+                        <a href="./product page/PM1.HTML">
+                            <button class="button">Shop Now</button>
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--Allocating space for Enquire for buying the Pixel-printer-->
+        <section style="background-color:#faebd7 ; width:114%; height:415px; margin-left:-14%; ">
+            <!--creating a div for title enquire now-->
+            <div style="background-color:antiquewhite ; width:100%; height:70px; ">
+                <h2 class="title">Enquire Now</h2>
+            </div>
+            <!--creating a div for user details-->
+            <div style="background-color: aqua; width:70%; height:300px; ">
+                <div style="background-color:#dbdbdb ; width:50%; height:322px; float:left; ">
+                    <div class="area">
+
+                        <form name="messageform" onsubmit="validateform()">
+                            <p><b>First name:</b><input type="text" name="firstname"> </p><br>
+                            <p><b>Gender:</b><input type="radio" name="gender" value="Male" checked><b>Male</b><input
+                                    type="radio" name="gender" value="Female"><b>female </b></p><br>
+                            <p><b>Message:</b> <br><textarea name="message" rows="9" cols="60"
+                                    placeholder="Enter Message"></textarea></p>
+                            <p><input type="submit" value="Submit" class="button"> </p>
+
+
+                    </div>
+                </div>
+
+                <div style="background-color:#dbdbdb ; width:50%; height:322px; float:right; ">
+                    <div class="area">
+
+
+                        <p><b>Last name:</b><input type="text" name="lastname"> </p><br>
+                        <p><b>ProvinceNo:</b>
+                            <select name="provinceno">
+                                <option value="Koshi">Koshi</option>
+                                <option value="Madhesh">Madhesh</option>
+                                <option value="Bagmati">Bagmati</option>
+                                <option value="Gandaki">Gandaki</option>
+                                <option value="Lumbini">Lumbini</option>
+                                <option value="Karnali">Karnali</option>
+                                <option value="Sudurpashchim">Sudurpashchim</option>
+                            </select>
+                        </p><br>
+                        <p><b>Address:</b><input type="text" name="address"> </p><br>
+                        <p><b>Previously purchased a printer from us?</b>
+                            <input type="radio" name="Previously_purchased_a_printer_from_us" value="YES" checked> YES
+                            <input type="radio" name="Previously_purchased_a_printer_from_us" value="NO">NO
+                        </p><br>
+                        <p><b>Contact no:</b><input type="text" name="contact no"> </p>
+
+                        </form>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--Allocating space for footer portion -->
+        <footer style="background-color: blueviolet; width:114%; height:800px; margin-left:-14%; ">
+
+            <!--creating upper footer space-->
+            <div style="background-color:#dbdbdb ; width:100%; height:500px; ">
+                <section style="background-color:lightgreen ; width:80%; height:500px; border-radius:20px ; ">
+
+                    <!--Allocating space for social media area -->
+                    <main
+                        style="background-color:#ffffff ; width:100%; height:100px; border-top-right-radius:20px; border-top-left-radius: 20px ;">
+                        <!--creating a 4 division for store links and loga  -->
+                        <div
+                            style="background-color:white ;  width:25%; height:100px; float:left; border-top-left-radius: 20px;">
+                            <a href="https://www.linkedin.com/in/suman-lama-ab3486215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiUtVQUg8RauZnejjemwe%2Bg%3D%3D
+                                "><img src="images/linkedin_logo.jpg" width="100px" height="95px"
+                                    style="padding-left:204px; padding-top: 3px ;" class="logo" /> </a>
+                        </div>
+
+                        <div style="background-color:white ;  width:25%; height:100px; float:inline-start ;">
+                            <a href="https://www.facebook.com/profile.php?id=100055931730338"><img
+                                    src="images/0f1f2899f08a49b7b8a258f596e5002d.png" width="100px" height="90px"
+                                    style="padding-left:110px; padding-top: 6px; border-radius: 12px ;" class="logo" />
+                            </a>
+                        </div>
+
+                        <div
+                            style="background-color: white ;  width:25%; height:100px; float:right;border-top-right-radius: 20px ">
+                            <a href="https://youtu.be/phSN6iciG94?si=aUVTtMQNfAjX4s4c"><img
+                                    src="images/home-events-interview-mark-pugh-2018.png" width="100px" height="90px"
+                                    style="padding-left:0px; padding-top: 6px; border-radius: 12px ;" class="logo" />
+                            </a>
+                        </div>
+
+                        <div style="background-color:white ;  width:25%; height:100px; float:inline-end;  ;">
+                            <a href="#"><img src="images/twitter-x-logo.jpg" width="100px" height="90px"
+                                    style="padding-left:60px; padding-top: 6px; border-radius: 12px ;" class="logo" />
+                            </a>
+                        </div>
+
+                    </main>
+
+                    <!--Allocating space for footer content area -->
+                    <div
+                        style="background-color:#586f75 ; width:100%; height:400px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px ; ">
+                        <!--creating a row space for Best Seller-->
+                        <main
+                            style="background-color:#586f75 ; width:33.3%; height:400px; float:left; border-bottom-left-radius: 20px; ">
+                            <p class="footer">
+                                <b>Best Seller</b><br><br>
+                                <a href="./product page/topsales.html" class="extra">New Products <br></a>
+                                <a href="https://www.bing.com/maps?q=islington+college&FORM=HDRSC6&cp=28.59236%7E77.356818&lvl=16.0"
+                                    class="extra">Site maps<br></a>
+                                <a href="about us.html" class="extra">About Us<br></a>
+                                <a href="about us.html" class="extra">Contact US<br></a>
+                            </p>
+                        </main>
+
+                        <!--creating a row space for about us-->
+                        <main
+                            style="background-color:#586f75 ; width:33.3%; height:400px; float:right; border-bottom-right-radius: 20px; ">
+                            <p class="footer">
+                                <b>About US</b><br><br>
+                                &#xf4d7; Putalisadak-Kathmandu-Nepal<br><br>
+                                &#x2709; sl2296450@gmail.com<br><br>
+                                &#x260E; 9803729956
+
+
+
+                            </p>
+                        </main>
+
+                        <!--creating a row space for my account-->
+                        <main style="background-color:#586f75 ; width:33.3%; height:400px;">
+                            <p class="footer"><b>My Account</b><br><br>
+                                Account<br>
+                                Payment<br>
+                                Shipping<br>
+                                history<br>
+                            </p>
+                        </main>
+
+                    </div>
+
+                </section>
+
+            </div>
+            <!--allocating a space for lower footer space-->
+            <div style="background-color:darkslateblue ; width:100%; height:300px; ">
+                <!--creating 3 div for lower footer content-->
+                <main style="background-color: #ded0d0 ; width:33.3%; height:300px; float:left; ">
+                    <a href="home2.html">
+                        <img src="images/IMG_20240104_014000_500.jpg" alt="image" width="50%" height="50%" />
+                    </a>
+
+                    <p class="lowerfooter">
+                        Where Cutting-Edge Technology Meets <br>
+                        Precision Printing Excellence,<br>
+                        Transforming Your Imagination into Vibrant Reality
+                    </p>
+                </main>
+
+                <main style="background-color:#ded0d0 ; width:33.3%; height:300px; float:right; ">
+                    <p class="lastone">
+                        &#x2709; sl2296450@gmail.com<br><br>
+                        &#x260E; 9803729956<br><br>
+                        Refund Policy<br><br>
+                    </p>
+                </main>
+
+                <main style="background-color:#ded0d0 ; width:33.3%; height:300px; ">
+                    <p class="lastone">
+                        &#149; Terms and Condition<br><br>
+                        &#149; Privacy Policy<br><br>
+                        &#149; Refund Policy<br><br>
+                    </p>
+                </main>
+
+
+            </div>
+
+        </footer>
+
+
+
+
+    </div>
+</body>
+
+</html>

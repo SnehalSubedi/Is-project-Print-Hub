@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homeprinters</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style type="text/css">
+        * 
+        {
+            margin: 0px auto;
+        }
+        /* imported */
+        .menu{
+            background-color:#dbdbdb;
+            height: 55px;
+            font-size:30px;
+            color:white;
+        }
+        .hello{
+            text-decoration:none;
+            color:white;
+        }
+        .hello:hover {
+            color: #1c1b1f;
+        }
+        .logo{
+
+            transition: transform 0.4s ;
+        }
+        .logo:hover{
+            transform: translateY(-9px);
+        }
+        .extra{
+            color: black ;
+            text-decoration: none;
+        }
+        .footer{
+            padding-left:50px;
+            padding-top:40px; ;
+            color: black ;
+            font-size:29px; 
+            font-family:'Times New Roman', Times, serif ;
+        }
+        /* end */
+        * 
+        {
+            margin: 0px ;
+            
+        }
+        /* .body_background{
+            background-image: url(../images../images.jpg);
+        } */
+
+        .imagebackground{
+            /* background-image: url(../images/Untitled.jpg);  */
+            background-color: #efefef;
+            /* background-color: #a6a6a6 ;   */
+        
+        }
+
+        .backgroundfornav{
+            height: 1600px; width: 24.5%; float: left; margin-left: 0.25%; margin-right: 0.25% ; background-color: #c2c8c5;
+        }
+        /* imported */
+        #fornav{
+            height: 310px;
+            width: 100%;
+            position:sticky;
+            top: 0;
+            overflow: hidden;
+            
+
+        }
+        .insidenav{
+            height: 50px;
+            width: 100%;
+            text-decoration: none;
+            /* border-bottom: 1px solid black;  */
+            background-color: #c2c8c5;
+            font-family: sans-serif;
+            color: whitesmoke;
+            padding-left: 2%;
+        }
+        /*main class for products*/
+        .mainclass{
+            width: 75%;
+            height: 1600px;
+            float: right;
+            font-family: Optima;
+            /* background-color: whitesmoke; */
+            
+        }
+        /* for each element of products which are next to nav */
+        .productsright{
+            height: 398px;
+            /* width: 30.83333333%; */
+            width: 33.13333333%;
+            background-color: white; 
+            float: left;
+            margin-right: 0.2%; margin-bottom: 2px;
+            /* box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 1px 1px 1px 1px #7a9091 ; */
+            /* border-radius: 2px; */
+        } 
+        .productsleft{
+            height: 398px;
+            width: 33.13333333%;
+            background-color: white; 
+            float: left;
+            margin-right: 0.2%; margin-bottom: 2px;
+            /* box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 1px 1px 1px 1px #7a9091 ; */
+            /* border-radius: 2px; */
+        }
+        .productsfont{
+            font-family: sans-serif;
+            text-decoration: none;
+            font-size: medium;
+        }
+        /* for the product's brands and ration */
+        .productsBR{
+            color: #b6b6b6;
+            font-size: small;
+            float: left;
+        }
+        .productbuttons{
+            font-size: small;
+            width: 100%;
+            float: left;
+        }
+        .productbuttons1{
+            height: 40px;
+            width: 99%;
+            box-sizing: border-box;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+        }
+        .productsprice{
+            color: black;
+            font-size: large;
+            height: 20px;
+        }
+        .productsimage{
+            height: 230px;
+            width: 100%;
+            /* padding-left: 3%; padding-bottom: 20px; padding-right: 3%; padding-top: 10px; */
+            border-bottom: 0.5px solid #c2c2c2;
+        }
+        .productstext{
+            width: 99%; padding-left: 0.5%; padding-right: 0.5%;
+        }
+        .productstitle{
+            height: 55px;
+        }
+    </style>
+</head>
+<body >
+    <!--creating a wrapper-->
+    <div style="height: 1750px; width: 100%;" class="imagebackground" >
+        <header style="background-color: aqua; width:100%; height:150px;">
+            <!--Div for keeping logo-->
+            <div style="background-color: blue; width:12%; height:150px; margin:0px; float:left;">
+                <img src="../images/IMG_20240104_014004_063.jpg" alt="image" width="100%"; height="100%"/>
+            </div>
+            <!--Creating space for navigation area -->
+            <div style="background-color: blueviolet; width:88%; height:150px; float:right;">
+                          
+                <!--for the upper portion of the navigartion bar-->
+                <div style="background-color:#dbdbdb ; width:100%; height:75px; float:top; text-align:center; font-size:40px;;">
+                    <p style="color:#586f75; font-family:'Times New Roman', Times, serif ; padding-top:15px; " >Unleash Your Imagination, Print Your Reality!
+                </div>
+                <!--for the main navigation content-->
+                <div style="background-color:#dbdbdb; width:100%; height:75px; float:button;">
+                    <table style="width:90%;margin:auto;">
+                        <tr>
+                            <th class="menu">
+                                <a href="../index.html.html" class="hello">Home</a>
+                            </th>
+                            <th class="menu">
+                                <a href="homeprinters.html" class="hello">Product</a>
+                            </th>
+                            <th class="menu">
+                                <a href="../blog.html.html" class="hello">Blog</a>
+                            </th>
+                            <th class="menu">
+                                <a href="../reference.html" class="hello">Research</a>
+                            </th>
+                            <th class="menu">
+                                <a href="../about us.html" class="hello">About Us</a>
+                            </th>
+                        </tr>
+                    </table>
+
+        </header>
+    <!-- onto the product portion -->
+        <!-- creating div for nav/categories -->
+        <div class="backgroundfornav">
+            <!-- creating navigation bar -->
+            <nav id="fornav">
+                <div style="height: 60px; background-color: white;" align="center">
+                    <h1 style="font-family: monospace">CATEGORIES</h1>
+                </div>
+                <div class="insidenav">                    
+                    <a href="Topsales.html" style="text-decoration: none;">TOP SALES</a>
+                </div>
+                <div class="insidenav">
+                    <a href="homeprinters.html" style="text-decoration: none;">HOME PRINTERS</a>
+                </div>
+                <div class="insidenav">
+                    <a href="officeprinters.html " style="text-decoration: none;">OFFICE PRINTERS</a>
+                </div>
+                <div class="insidenav">
+                    <a href="portableandminiprinters.html" style="text-decoration: none;">PORTABLE AND MINI PRINTERS</a>
+                </div>
+                <div class="insidenav">
+                    <a href="3dprinters.html" style="text-decoration: none;">3D PRINTERS</a>
+                </div>
+            </nav>
+            <!-- for adds -->
+            <div style="height: 585px; width: 100%;">
+            </div>
+        </div>
+        <!-- products homeprinters -->
+        <main class="mainclass">
+            <!-- 1 -->
+            <div class="productsright" >
+                <img src="../images/PM-Brother PocketJet PJ773 Direct Thermal Printer.jpg" alt="" srcset="" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Brother PocketJet PJ773 Direct Thermal Printer                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 12,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Brother<br>    
+                        ratings:3.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <a href="PM1.html" class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- 2 -->
+            <div class="productsleft" >
+                <img src="../images/PMCanon SELPHY Square QX10 Smartphone Printer Black (Heavy DutyStickerCompact).jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Canon SELPHY Square QX10 Smartphone Printer Black (Heavy Duty/Sticker/Compact)                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 15,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Canon<br>    
+                        ratings:3.7/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- 3 -->
+            <div class="productsleft" >
+                <div>
+                    <img src="../images/PMCanon Store Canon Selphy Mobile Compact Photo Printer - (Black).jpg" alt="loading" class="productsimage">
+                </div>
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Canon Store Canon Selphy Mobile Compact Photo Printer - (Black)                       
+                        </div>
+                        <div class="productsprice">
+                           Rs 9,500
+                        </div>
+                        <div class="productsBR">
+                        Brand:Canon<br>    
+                        ratings:3.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="productsright">
+                <img src="../images/PM-Epson WorkForce ES-50.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Epson WorkForce ES-50                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 10,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Epson<br>    
+                        ratings:3.7/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="productsleft">
+                <img src="../images/PMItari Portable Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Itari Portable Printer Wireless for Travel, M08F-Letter 
+                        </div>
+                        <div class="productsprice">
+                           Rs 8,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Itari<br>    
+                        ratings:4.9/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="productsleft">
+                <img src="../images/PMKodak Mini 2 HD Wireless Mobile Instant Photo Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Kodak Mini 2 HD Wireless Mobile Instant Photo Printer w/4PASS 
+                        </div>
+                        <div class="productsprice">
+                         Rs 5,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:KODAK<br>    
+                        ratings:4/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- 7 -->
+            <div class="productsright">
+                <img src="../images/PM-KODAK Step Wireless Mobile Photo Mini Color Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            KODAK Step Wireless Mobile Photo Mini Color Printer 
+                        </div>
+                        <div class="productsprice">
+                           Rs 22,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:KODAK<br>    
+                        ratings:3.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <!-- 8-->
+            <div class="productsleft">
+                <img src="../images/PM-M03 Portable Printer1.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            M03 Portable Printer                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 15,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Phomemo<br>    
+                        ratings:5/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <!-- 9 -->
+            <div class="productsleft">
+                <img src="../images/PM-M04AS Portable Thermal Printer.jpeg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            M04AS Portable Thermal Printer                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 16,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Phomemo<br>    
+                        ratings:3/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="productsright">
+                <img src="../images/PM-M08F Letter & A4 Portable Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            M08F Letter & A4 Portable Printer                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 24,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Phomemo<br>    
+                        ratings:3.2/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <!-- 11 -->
+            <div class="productsleft">
+                <img src="../images/PMRIITEK PeriPage 304 DPI Ultra HD Resolution A6 Mini Printer; Wireless Bluetooth Portable.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            RIITEK PeriPage 304 DPI Ultra HD Resolution A6 Mini Printer; Wireless Bluetooth Portable                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 34,500
+                        </div>
+                        <div class="productsBR">
+                        Brand:RIITEK<br>    
+                        ratings:2.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+            <!--12  -->
+            <div class="productsleft">
+                <div>
+                <img src="../images/PMRIITEK PeriPage A4 Pocket Printer; Wireless Bluetooth Portable Inkless Thermal Printer.jpg" alt="loading" class="productsimage">
+                </div>
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            RIITEK PeriPage A4 Pocket Printer; Wireless Bluetooth Portable Inkless Thermal Printer                        
+                        </div>
+                        <div class="productsprice">
+                           Rs 12,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:RIITEK<br>    
+                        ratings:4.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>       
+    </div>
+</body>
+</html>

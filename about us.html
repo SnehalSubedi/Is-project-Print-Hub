@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel-Printer</title>
+    <style>
+        *
+        {
+            margin:0px auto;
+        
+        }
+        * {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    position: relative;
+    background-image: url('images/harsha.jpeg');
+    width: 100%; 
+    height: 500px;
+}
+
+.text-overlay {
+    font-size: 30px; 
+    color: rgb(31, 2, 2); 
+    padding: 150px; 
+    text-align: center;
+}
+
+.first-img {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    background-image: url('images/n.b.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.first-container {
+    position: relative;
+    background-color:rgb(228, 225, 230);
+    width: 100%; 
+    height: 550px;
+}
+
+.nested-div1 {
+    width: 55%;
+    height: 100%;
+    background-color:rgb(228, 225, 230);
+}
+
+#div1 {
+    background-image: url('images/bc_t.jpeg');
+}
+
+.third-img {
+    width: 90%; 
+    height: 500px; 
+    margin: 18px; 
+    float:left;
+    background-color:#FFFFFF;
+}
+
+#div2 {
+    background-color: rgb(228, 225, 230); 
+}
+* {
+            margin: 0px auto;
+        }
+
+        /*changing the height and bachground element of the navigation bar*/
+        .menu {
+            background-color: #dbdbdb;
+            height: 55px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .hello {
+            text-decoration: none;
+            color: white;
+        }
+
+        .hello:hover {
+            color: #1c1b1f;
+        }
+
+
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CREATING A WRAPPER -->
+    <div style="background-color:rgb(228, 225, 230); height:2000px; width:100%;">
+
+        <!--creating header content and navigation by appling div-->
+        <header style="background-color: aqua; width:100%; height:150px;">
+
+            <!--Div for keeping logo-->
+            <div style="background-color: blue; width:12%; height:150px; margin:0px; float:left;">
+                <img src="images/IMG_20240104_014004_063.jpg" alt="image" width="100%" ; height="100%" />
+            </div>
+
+            <!--Creating space for navigation area -->
+            <div style="background-color: blueviolet; width:88%; height:150px; float:right;">
+
+                <!--for the upper portion of the navigartion bar-->
+                <div
+                    style="background-color:#dbdbdb ; width:100%; height:75px; float:top; text-align:center; font-size:40px;;">
+                    <p style="color:#586f75; font-family:'Times New Roman', Times, serif ; padding-top:15px; ">Unleash
+                        Your Imagination, Print Your Reality!</p>
+                </div>
+
+                <!--for the main navigation content-->
+                <div style="background-color:#dbdbdb; width:100%; height:75px; float:button;">
+                    <table style="width:90%;margin:auto;">
+                        <tr>
+                            <th class="menu">
+                                <a href="index.html.html" class="hello">Home</a>
+                            </th>
+                            <th class="menu">
+                                <a href="product page/homeprinters.html" class="hello">Product</a>
+                            </th>
+                            <th class="menu">
+                                <a href="blog.html.html" class="hello">Blog</a>
+                            </th>
+                            <th class="menu">
+                                <a href="reference.html" class="hello">Research</a>
+                            </th>
+                            <th class="menu">
+                                <a href="about us.html" class="hello">About Us</a>
+                            </th>
+                        </tr>
+                        <table>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- ALLOCATING SPACE FOR ADDING MAIN CONTENT -->
+        <main style="background-color:rgb(228, 225, 230); width:100%; height:100%;">
+            <div class="container">
+                <div class="text-overlay">
+                    <h2>About Us</h2>
+                    <h5>Unleash Your Imagination Print Your Reality!</h5>
+                </div>
+                
+                <div class="image-div first-img"></div>
+                
+
+                <div class="nested-container first-container">
+                    <div class="nested-division nested-div1" id="div1">
+                        <div class="image-div third-img"></div>
+                    </div>
+
+                    <div class="nested-division nested-div2" id="div2"></div>
+                </div>
+            </div>
+
+            <div style="background-color: rgb(228, 225, 230); width: 100%; height: 523px; overflow: hidden;">
+                <div style="font-size: 25px; color: rgb(9, 9, 9); padding: 50px 0; text-align: center;"> | Meet Our Team | </div>
+                <div class="container-img">
+                <div style="float: left; width: 20%; background-color: #FFFFFF; height: 350px; margin-top: 10px; margin-bottom: 10px; margin-right: 1.5%; margin-left: 7%">
+                    <p>Suman</p>
+                    <div class="card">
+                        <img src="images/IMG-20230329-WA0002~2.jpg" alt="Suman Lama" width="100%" height="100%" />
+                        <div class="intro">
+                            <h1>Suman Lama</h1>
+                            <p>Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left; width: 20%; background-color: #FFFFFF; height: 350px; margin-top: 10px; margin-bottom: 10px; margin-right: 1.5%; margin-left: 1%">
+                    <p>Snehal</p>
+                    <div class="card">
+                        <img src="images/423686537_1107454767344287_5176816533125032367_n.jpg" alt="Snehal Subedi" width="100%" height="100%" />
+                        <div class="intro">
+                            <h1>Snehal Subedi</h1>
+                            <p>Member</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left; width: 20%; background-color: #FFFFFF; height: 350px; margin-top: 10px; margin-bottom: 10px; margin-right: 1.5%; margin-left: 1%">
+                    <p>Prasamsha</p>
+                    <div class="card">
+                        <img src="images/421103679_700741118856298_5125630696348791986_n.jpg" alt="Prasamsha Singh"width="100%" height="100%" />
+                        <div class="intro">
+                            <h1>Prasamsha Singh</h1>
+                            <p>Member</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="float: left; width: 20%; background-color: #FFFFFF; height: 350px; margin-top: 10px; margin-bottom: 10px; margin-right: 3%; margin-left: 1%">
+                    <p>Harsha</p>
+                    <div class="card">
+                        <img src="images/421942789_1442874586419464_4540070847141138924_n.jpg" alt="Harsha" width="100%" height="100%" />
+                        <div class="intro">
+                            <h1>Harsha Gurung</h1>
+                            <p>Member</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homeprinters</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style type="text/css">
+        * 
+        {
+            margin: 0px auto;
+        }
+        /* imported */
+        .menu{
+            background-color:#dbdbdb;
+            height: 55px;
+            font-size:30px;
+            color:white;
+        }
+        .hello{
+            text-decoration:none;
+            color:white;
+        }
+        .hello:hover {
+            color: #1c1b1f;
+        }
+        .logo{
+
+            transition: transform 0.4s ;
+        }
+        .logo:hover{
+            transform: translateY(-9px);
+        }
+        .extra{
+            color: black ;
+            text-decoration: none;
+        }
+        .footer{
+            padding-left:50px;
+            padding-top:40px; ;
+            color: black ;
+            font-size:29px; 
+            font-family:'Times New Roman', Times, serif ;
+        }
+        /* end */
+        * 
+        {
+            margin: 0px ;
+            
+        }
+        /* .body_background{
+            background-image: url(..../images..../images.jpg);
+        } */
+
+        .imagebackground{
+            /* background-image: url(..../images/Untitled.jpg);  */
+            background-color: #efefef;
+            /* background-color: #a6a6a6 ;   */
+        
+        }
+
+        .backgroundfornav{
+            height: 1600px; width: 24.5%; float: left; margin-left: 0.25%; margin-right: 0.25% ; background-color: #c2c8c5;
+        }
+        /* imported */
+        #fornav{
+            height: 310px;
+            width: 100%;
+            position:sticky;
+            top: 0;
+            overflow: hidden;
+            
+
+        }
+        .insidenav{
+            height: 50px;
+            width: 100%;
+            text-decoration: none;
+            /* border-bottom: 1px solid black;  */
+            background-color: #c2c8c5;
+            font-family: sans-serif;
+            color: whitesmoke;
+            padding-left: 2%;
+        }
+        /*main class for products*/
+        .mainclass{
+            width: 75%;
+            height: 1600px;
+            float: right;
+            font-family: Optima;
+            /* background-color: whitesmoke; */
+            
+        }
+        /* for each element of products which are next to nav */
+        .productsright{
+            height: 398px;
+            /* width: 30.83333333%; */
+            width: 33.13333333%;
+            background-color: white; 
+            float: left;
+            margin-right: 0.2%; margin-bottom: 2px;
+            /* box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 1px 1px 1px 1px #7a9091 ; */
+            /* border-radius: 2px; */
+        } 
+        .productsleft{
+            height: 398px;
+            width: 33.13333333%;
+            background-color: white; 
+            float: left;
+            margin-right: 0.2%; margin-bottom: 2px;
+            /* box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 1px 1px 1px 1px #7a9091 ; */
+            /* border-radius: 2px; */
+        }
+        .productsfont{
+            font-family: sans-serif;
+            text-decoration: none;
+            font-size: medium;
+        }
+        /* for the product's brands and ration */
+        .productsBR{
+            color: #b6b6b6;
+            font-size: small;
+            float: left;
+        }
+        .productbuttons{
+            font-size: small;
+            width: 100%;
+            float: left;
+        }
+        .productbuttons1{
+            height: 40px;
+            width: 99%;
+            box-sizing: border-box;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+        }
+        .productsprice{
+            color: black;
+            font-size: large;
+            height: 20px;
+        }
+        .productsimage{
+            height: 230px;
+            width: 100%;
+            /* padding-left: 3%; padding-bottom: 20px; padding-right: 3%; padding-top: 10px; */
+            border-bottom: 0.5px solid #c2c2c2;
+        }
+        .productstext{
+            width: 99%; padding-left: 0.5%; padding-right: 0.5%;
+        }
+        .productstitle{
+            height: 55px;
+        }
+    </style>
+</head>
+<body >
+    <!--creating a wrapper-->
+    <div style="height: 1750px; width: 100%;" class="imagebackground" >
+        <header style="background-color: aqua; width:100%; height:150px;">
+            <!--Div for keeping logo-->
+            <div style="background-color: blue; width:12%; height:150px; margin:0px; float:left;">
+                <img src="../images/IMG_20240104_014004_063.jpg" alt="image" width="100%"; height="100%"/>
+            </div>
+            <!--Creating space for navigation area -->
+            <div style="background-color: blueviolet; width:88%; height:150px; float:right;">
+                          
+                <!--for the upper portion of the navigartion bar-->
+                <div style="background-color:#dbdbdb ; width:100%; height:75px; float:top; text-align:center; font-size:40px;;">
+                    <p style="color:#586f75; font-family:'Times New Roman', Times, serif ; padding-top:15px; " >Unleash Your Imagination, Print Your Reality!
+                </div>
+                <!--for the main navigation content-->
+                <div style="background-color:#dbdbdb; width:100%; height:75px; float:button;">
+                    <table style="width:90%;margin:auto;">
+                        <tr>
+                            <th class="menu">
+                                <a href="../index.html.html" class="hello">Home</a>
+                            </th>
+                            <th class="menu">
+                                <a href="homeprinters.html" class="hello">Product</a>
+                            </th>
+                            <th class="menu">
+                                <a href="../blog.html.html" class="hello">Blog</a>
+                            </th>
+                            <th class="menu">
+                                <a href="../reference.html" class="hello">Research</a>
+                            </th>
+                            <th class="menu">
+                                <a href="../about us.html" class="hello">About Us</a>
+                            </th>
+                        </tr>
+                    </table>
+
+        </header>
+    <!-- onto the product portion -->
+        <!-- creating div for nav/categories -->
+        <div class="backgroundfornav">
+            <!-- creating navigation bar -->
+            <nav id="fornav">
+                <div style="height: 60px; background-color: white;" align="center">
+                    <h1 style="font-family: monospace">CATEGORIES</h1>
+                </div>
+                <div class="insidenav">                    
+                    <a href="Topsales.html" style="text-decoration: none;">TOP SALES</a>
+                </div>
+                <div class="insidenav">
+                    <a href="homeprinters.html" style="text-decoration: none;">HOME PRINTERS</a>
+                </div>
+                <div class="insidenav">
+                    <a href="officeprinters.html " style="text-decoration: none;">OFFICE PRINTERS</a>
+                </div>
+                <div class="insidenav">
+                    <a href="portableandminiprinters.html" style="text-decoration: none;">PORTABLE AND MINI PRINTERS</a>
+                </div>
+                <div class="insidenav">
+                    <a href="3dprinters.html" style="text-decoration: none;">3D PRINTERS</a>
+                </div>
+            </nav>
+        </div>
+        <!-- products homeprinters -->
+        <main class="mainclass">
+            <!-- 1 -->
+            <div class="productsright" >
+                <img src="../images/33D3IDEA.jpg" alt="" srcset="" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            33D3IDEA Photon Mono X 6K High Speed ​​Resin 3D Printer with 9.25 Monochrome Screen</div>
+                        <div class="productsprice">
+                           Rs 58,405
+                        </div>
+                        <div class="productsBR">
+                        Brand:3 idea Imagine Create Print<br>    
+                        ratings:4.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <a href="3D1.html" class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </a>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- 2 -->
+            <div class="productsleft" >
+                <img src="../images/33DANYCUBIC Photon Mono M5 12K Resin 3D Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            33DANYCUBIC Photon Mono M5 12K Resin 3D Printer.jpg DCP-T525W Printer
+                        </div>
+                        <div class="productsprice">
+                           Rs 56,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:ANYCUBIC<br>    
+                        ratings:3.7/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- 3 -->
+            <div class="productsleft" >
+                <div>
+                    <img src="../images/33DCreality CR-M4 3D PRINTER.jpg" alt="loading" class="productsimage">
+                </div>
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Creality CR-M4 3D Printer 450 * 450 * 470mm by WOL3D [1]
+                        </div>
+                        <div class="productsprice">
+                           Rs 49,500
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL 3D<br>    
+                        ratings:2.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="productsright">
+                <img src="../images/33DELEGOO Mars 4 LCD 3D Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            ELEGOO Mars 4 LCD 3D Printer, Desktop Resin 3D Printer with Ultra-Quiet                         </div>
+                        <div class="productsprice">
+                           Rs 50,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Protomont TECHNOLOGIES
+                        <br>    
+                        ratings:3.7/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="productsleft">
+                <img src="../images/33DELEGOO Neptune 4 Pro 3D Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            ELEGOO Neptune 4 Pro 3D Printer, 500mm/s High Speed FDM Printer with Klipper Firmware                        </div>
+                        <div class="productsprice">
+                           Rs 48,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Protomont TECHNOLOGIES<br>    
+                        ratings:2.9/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="productsleft">
+                <img src="../images/33DELEGOO Resin 3D Printer, Mars 3 Pro MSLA 3D Printer with 6.6-.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            ELEGOO Resin 3D Printer, Mars 3 Pro MSLA 3D Printer with 6.6-Inch Ultra 4K Monochrome                         </div>
+                        <div class="productsprice">
+                         Rs 60,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:Protomont TECHNOLOGIES <br>    
+                        ratings:4.9/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- 7 -->
+            <div class="productsright">
+                <img src="../images/33DNew Creality CR-10 Smart 3D Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Creality Sermoon V1 3D Printer, Fully Assembled with Sprite Direct Drive, Silent Mainboard                         </div>
+                        <div class="productsprice">
+                           Rs 92,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL 3D<br>    
+                        ratings:4.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <!-- 8-->
+            <div class="productsleft">
+                <img src="../images/33DPixel 3D 10 Original DIY 3D Printer Indian FDM 3D Machine 2023.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            Pixel 3D 10 Original DIY 3D Printer Indian FDM 3D Machine 2023 | Auto Levelling                        </div>
+                        <div class="productsprice">
+                           Rs 1,50,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL 3D<br>    
+                        ratings:5/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <!-- 9 -->
+            <div class="productsleft">
+                <img src="../images/33DWOL 3D Flashforge Creator 3 2023 Model,.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            WOL 3D Flashforge Creator 3 2023 Model, Industrial Independent Dual Extruder 3D Printer (Professional)                         </div>
+                        <div class="productsprice">
+                           Rs 56,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL 3D<br>    
+                        ratings:3/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="productsright">
+                <img src="../images/33DWOL3D Creality Ender 3 Model 2023 DIY Printer.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            WOL3D Creality Ender 3 Model 2023 DIY Printer with Removable Bed 3D Printer Kit                         </div>
+                        <div class="productsprice">
+                           Rs 44,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL 3D<br>    
+                        ratings:4.2/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            <!-- 11 -->
+            <div class="productsleft">
+                <img src="../images/33DWOL3D Creality K1 Speedy 3D Printer w.jpg" alt="loading" class="productsimage">
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            WOL3D Creality K1 Speedy 3D Printer with 600mm/s max Speed, Enclosed 3D Printer                         </div>
+                        <div class="productsprice">
+                           Rs 34,500
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL3D<br>    
+                        ratings:4.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+            <!--12  -->
+            <div class="productsleft">
+                <div>
+                <img src="../images/33DWOL3D ELEGOO Saturn 3 Ultra Resin 3D Printer with 10'' 12K Mono LCD.jpg" alt="loading" class="productsimage">
+                </div>
+                <div class="productstext">
+                    <div class="productsfont"> 
+                        <div class="productstitle">
+                            WOL3D ELEGOO Saturn 3 Ultra Resin 3D Printer with 10'' 12K Mono LCD                        </div>
+                        <div class="productsprice">
+                           Rs 62,000
+                        </div>
+                        <div class="productsBR">
+                        Brand:WOL 3D<br>    
+                        ratings:3.8/5
+                        </div>
+                        <br>
+                        <br>
+                        <div class="productbuttons">
+                            <button class="productbuttons1">VIEW DETAILS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>       
+    </div>
+</body>
+</html>
